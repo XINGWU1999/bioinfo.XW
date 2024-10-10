@@ -1,0 +1,28 @@
+Package: bioinfo.XW
+Type: Package
+Title: ZXW bioinfo analysis
+Version: 0.2.14
+Author: Xingwu.Zhang
+Maintainer: <zhxiwu@163.com>
+Description: some common dependencies of ZXW.
+    run test_zxw() before first use
+    0.2.1 version: added test_zxw for the test, add tcltk and tidyverse as dependencies
+    0.2.2 version: trying to perform basic crawler, starting from try_URL
+    0.2.2 version: Debug and description on GO
+    0.2.3 version: QC_plot add mt gene calculation even if the input is a Seurat object
+    0.2.4 version: GO_plot optimization, added ignore list
+    0.2.5 version: GO_plot optimization, added want list
+    0.2.6 version: remove Seurat as Imports
+    0.2.7 version: add use_origin in mutate_list function
+    0.2.8 version: QC_subset add mt gene calculation at all times
+    0.2.9 version: add verbose in mutate_list
+    0.2.10 version: add ms as an organism option in QC_plot
+    0.2.11 version: GO_plot update
+    0.2.12 version: add Draw_AUC and Four_fold_change functions
+    0.2.13 version: add Four_fold_rocobj functions
+    0.2.14 version: Four_fold_rocobj functions update, add AUC and cutoffpoint
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: stringi, magrittr, ggplot2, tidyverse, Matrix, tidyverse, tcltk, xml2, rvest, pROC, Seurat
